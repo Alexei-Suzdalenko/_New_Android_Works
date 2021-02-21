@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal">
+        <LinearLayout
+            android:layout_gravity="start"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:layout_marginStart="4dp"
+                android:id="@+id/image_user_product"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/product"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginStart="19dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
+                    android:id="@+id/title_user_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
+                    android:id="@+id/price_user_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/click_minus"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textSize="22dp"
+                        android:textColor="@color/white"
+                        android:text="@string/menos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/click_plus"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textSize="22dp"
+                        android:textColor="@color/white"
+                        android:text="@string/more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sirniy.teremok">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".admin_activitys.utiles.App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shopapp">
+        <activity android:name=".user.ProductActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity android:name=".user.UserOrders" android:screenOrientation="portrait" android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity
+            android:name=".user.BasketActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity
+            android:name=".user.UserProfil"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity
+            android:name=".user.UserProfilEdit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity
+            android:name=".admin_activitys.IndexAdminActivity"
+            android:label="@string/title_activity_tab_options"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Shopapp.NoActionBar" />
+        <activity
+            android:name=".admin_activitys.AdminOptionActivity"
+            android:label="@string/admin_options"
+            android:screenOrientation="portrait" />
+        <activity android:name=".admin_activitys.AdminListProducts" />
+        <activity
+            android:name=".admin_activitys.AdminCreateProduct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".admin_activitys.AdminLoginActivity"
+            android:label="@string/administrator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".first_youtube.tab_top.IndexActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_youtube.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_youtube.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_youtube.BaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_youtube.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_youtube.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".first_youtube.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

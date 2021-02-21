@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412626031441",
+    "firebase_url": "https://shop-teremok-default-rtdb.firebaseio.com",
+    "project_id": "shop-teremok",
+    "storage_bucket": "shop-teremok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412626031441:android:7d027eea5a6d764f67b970",
+        "android_client_info": {
+          "package_name": "sirniy.teremok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412626031441-kq3qi9uea07hg1k30dddtv6ttambif6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsDhpIu_f-kjiJZd1N2R1B9FEIE6qRf0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412626031441-kq3qi9uea07hg1k30dddtv6ttambif6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
